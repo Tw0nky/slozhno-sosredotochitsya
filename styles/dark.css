@@ -3,10 +3,21 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-color: #ff0070;
+  --title-color: #db00ff;
+  --title-decor: var(--main-color);
+  --shadow-color: var(--main-color);
+  --main-text-color: #f1b2ce;
+  --accent-color: #000028;
+  --link-effect: var(--main-color);
+  --hover-color: rgba(255, 0, 112, 0.4);
+
+  --background-color: var(--accent-color);
+  --background-image: url(../images/cover-image-dark.png);
+  --decoration-visible: visible;
 }
