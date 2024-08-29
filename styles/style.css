@@ -69,6 +69,7 @@
 }
 
 .header__theme-menu-button_active {
+  outline: 1px solid var(--main-color);
   pointer-events: none;
 }
 
@@ -87,10 +88,6 @@
 .header__theme-menu-button:focus {
   border-block-end: 1px solid var(--main-color);
   outline: none;
-}
-
-.header__theme-menu-button_active {
-  outline: 1px solid var(--main-color);
 }
 
 .header__title {
