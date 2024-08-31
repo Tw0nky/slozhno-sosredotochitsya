@@ -3,6 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 @media (prefers-color-scheme: light) {
   :root {
     --main-color: #353430;
@@ -38,4 +39,11 @@
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --decoration-visible: hidden;
+}
+
+@media (width >= 1024px) {
+  :root,
+  .page.theme_light {
+    --shadow-color: #ff0070;
+  }
 }

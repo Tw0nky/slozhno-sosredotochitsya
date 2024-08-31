@@ -13,7 +13,14 @@
   --link-effect: var(--main-color);
   --hover-color: rgba(255, 0, 112, 0.4);
 
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --background-color: var(--accent-color);
   --background-image: url(../images/cover-image-dark.png);
   --decoration-visible: visible;
+}
+
+@media (width >= 768px) {
+  :root {
+    --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
